@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.tensorflow.lite.examples.detection"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:4:5-17
+8        android:minSdkVersion="21"
+8-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:4:5-17
+9        android:targetSdkVersion="28" />
+9-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:4:5-17
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:6:5-65
+11-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:6:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:8:5-60
+13-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:8:19-57
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:9:5-70
+14-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:9:19-67
+15
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:10:5-80
+16-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:11:5-79
+17-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:11:22-77
+18
+19    <application
+19-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:13:5-34:19
+20        android:allowBackup="false"
+20-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:14:9-36
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\Ashish\.gradle\caches\transforms-2\files-2.1\558d13fe51b43b9adaae0d64efef10db\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:15:9-43
+24        android:label="@string/tfe_od_app_name"
+24-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:16:9-48
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:17:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:18:9-35
+27        android:theme="@style/AppTheme.ObjectDetection" >
+27-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:19:9-56
+28        <activity
+28-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:21:9-25:20
+29            android:name="org.tensorflow.lite.examples.detection.DetectorActivity"
+29-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:22:13-45
+30            android:label="@string/tfe_od_app_name"
+30-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:23:13-52
+31            android:screenOrientation="portrait" >
+31-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:24:13-49
+32        </activity>
+33        <activity android:name="org.tensorflow.lite.examples.detection.MainActivity" >
+33-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:27:9-32:20
+33-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:27:19-47
+34            <intent-filter>
+34-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:28:13-31:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:29:17-69
+35-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:29:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:30:17-77
+37-->C:\Users\Ashish\Desktop\OOP Project\Object-Detection-using-Yolo-in-Android\android\app\src\main\AndroidManifest.xml:30:27-74
+38            </intent-filter>
+39        </activity>
+40    </application>
+41
+42</manifest>
